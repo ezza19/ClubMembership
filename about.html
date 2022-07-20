@@ -1,0 +1,157 @@
+<?php 
+session_start();
+include "db_conn.php";
+include "navbarmember.php";
+
+ ?>
+
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+		<meta charset = "utf-8">
+		
+		<style>
+		
+			#a2
+			{
+					color:white;
+					text-decoration:none;
+
+			}
+
+		.button {
+		  background-color: #f15634; /* Green */
+		  border: none;
+		  color: white;
+		  padding: 16px 32px;
+		  text-align: center;
+		  text-decoration: none;
+		  display: inline-block;
+		  font-size: 16px;
+		  margin: 4px 2px;
+		  transition-duration: 0.4s;
+		  cursor: pointer;
+		}
+
+		.button2:hover {
+		  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+		}
+
+		.button  {border-radius: 4px;}
+
+			</style>
+			<title>ABOUT</title>
+
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		   <script src="js/jquery.js"></script>
+			<script src="js/jquery.glide.js"></script>
+
+			<link rel="stylesheet" href="css/styleabout.css">
+			  <link rel="stylesheet" href="css/animate.css">
+			<script type="text/javascript" src="js/MyJQ.js"></script>
+			<script src="js/jquery.localScroll.min.js" type="text/javascript"></script>
+			<script src="js/jquery.scrollTo.min.js" type="text/javascript"></script>
+			<script src="js/wow.min.js" type="text/javascript"></script>
+
+		<!-- scroll function -->
+		<script type="text/javascript">
+		$(document).ready(function() {
+		   $('#navigations').localScroll({duration:800});
+		});
+		</script>
+
+
+		<script src="js/wow.min.js"></script>
+		<script>
+		new WOW().init();
+		</script>
+</head>
+<body>
+<a name = "top"></a>
+<!--============ Navigation ============-->
+<div class="header">
+  <center><h1>About</h1><br>
+  <p>Club Information</p></center>
+</div>
+	
+<div class="sliderwrapper">
+      <div id="slider" class="container">
+           <div class="slider">
+      			<ul class="slides">
+    		 	 	  <li class="slide">
+                      	<h5 class="wow fadeInDown" data-wow-delay="0.8s">What is Club Management System ? </h5>
+                      	<p class="wow fadeInUp" data-wow-delay="0.8s" style="text-align:justify">Club management system is a system that manage students' 
+							club registration. Club Management System ease users to register their preffered club as easy as filling in the registration form. 
+							By registering to a club, they can actively involved with the club's interesting activities along.
+							By having the Club Membership System, tracking members and get involves with thing you like became easier :)
+						</p>&nbsp;&nbsp;&nbsp;
+						<img src="images/c.jpg" width="310" height="256" class="wow fadeInRight"
+						data-wow-delay="0.8s" alt="slide1img">
+                      </li>
+        		  </ul>
+            </div>
+      </div>
+</div>
+
+
+<center>
+	<table border ="0" width="90%" cellpadding="0" cellspacing="0" align="center" >
+			<tr>
+			   <td width="65%" valign="top">
+				<table border ="0" width="90%"  cellpadding="0" cellspacing="0" align="center" >
+					
+					<tr>
+						<fieldset> 
+						  <br> 
+						  <legend><h2>Community Service Club</h2></legend>
+						  <p class="wow fadeInUp" data-wow-delay="0.8s" style="text-indent: 50px;" >
+								The Community Service Club serves as a platform to enable student volunteers to give back to 
+								society through service encompassing education, empowerment and healthcare. Among the projects 
+								organised by our club are ‘Children’s Home of Hope’ for children receiving treatment for cancer, 
+								‘Agathians Home Tutor’ whereby we tutor underprivileged children mainly on Mathematics and ‘Locks 
+								of Hope’ which is a hair donation project to make wigs for cancer patients undergoing chemotherapy. 
+								Besides that, our club also collaborates with Women’s Aid Organisation which provides free shelter,
+								counselling and crisis support to women and children who face abuse. 
+								Through our club, students have the opportunity to work together to extend a helping hand to those 
+								in need and improve the quality of lives of the less fortunate.
+							</p>
+						</fieldset>
+						<br>
+						<fieldset>
+							<br> 
+							<legend><h2>Enterpreneur Club</h2></legend>
+							<p class="wow fadeInUp" data-wow-delay="0.8s" style="text-indent: 50px">
+								The Entrepreneurship Club is a learning-by-doing environment where students can cultivate their 
+								entrepreneurship skills. Students in the club will participate in the development of a business, 
+								at minimum by learning from attending meetings, but ideally developing a start-up.
+							</p>
+						</fieldset>
+						<br>
+						<fieldset>
+							<br> 
+							<legend><h2>Debate Club</h2></legend>
+							<p class="wow fadeInUp" data-wow-delay="0.8s" style="text-indent: 50px" >
+								A debate club gives students of all abilities a fun way of developing their oracy skills. 
+								Different activities can be used to help students with their critical thinking and confident communication. 
+								Debate Club's aim is to empower Academy students with the skills of expressing their beliefs clearly and concisely, 
+								public speaking and effective communication in a formal setting, and staying aware of current events in the world.</b>
+							</p>
+						</fieldset>	
+						<br>
+						<fieldset> 
+							<legend><h2>Theater Club</h2></legend>
+							<p class="wow fadeInUp" data-wow-delay="0.8s" style="text-indent: 50px">
+							Theater Club is designed for students interested in learning more about the aspects of theater. This includes 
+							learning stage terminology, working on acting skills, set building, and costumes/makeup design. Theater Club is 
+							open to all students.
+							</p><br/>
+						</fieldset>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</center>
+<br>
+</body>
+</html>
